@@ -16,15 +16,22 @@ The model is configured to answer questions based on the specific knowledge spac
 ## Clarifications
 Here are some insights and answers to potential questions regarding some of my decisions:
 ### Why Google Colab?
-- I chose Google Colab as the platform for this project to ensure that anyone evaluating my submission could easily access and execute the code without needing any specific setup or environment configuration.
+I chose Google Colab as the platform for this project to ensure that anyone evaluating my submission could easily access and execute the code without needing any specific setup or environment configuration.
 ### Security Measures for API Key
-- The application is designed to prompt for the key at runtime rather than storing it statically for security.
+The application is designed to prompt for the key at runtime rather than storing it statically for security.
 ### Optimized for the Knowledge Base
-- Reading instructions, I determined that focusing on the knowledge base would be the most appropriate approach.
+Reading instructions, I determined that focusing on the knowledge base would be the most appropriate approach.
 ### Exit After Five Unsuccessful Queries
-- To prevent unnecessary processing, the application is designed to exit after five consecutive unsuccessful queries. 
+To prevent unnecessary processing, the application is designed to exit after five consecutive unsuccessful queries. 
 ### Why does the file need to be uploaded to a specific directory called 'KW_space'?
--  The file is required to be uploaded to the directory "KW_space" because I utilize `SimpleDirectoryReader()` to load the data. While a simpler solution like `PdfReader()` from PyPDF2 could be used, I chose a more generalized approach ready to handle multiple files. This choice was made despite not being specified in the instructions because the increase in complexity and resource use was minimal, providing flexibility for potential future enhancements.
+The file is required to be uploaded to the directory "KW_space" because I utilize `SimpleDirectoryReader()` to load the data. While a simpler solution like `PdfReader()` from PyPDF2 could be used, I chose a more generalized approach ready to handle multiple files. This choice was made despite not being specified in the instructions because the increase in complexity and resource use was minimal, providing flexibility for potential future enhancements.
+## Why are embeddings not persistent across sessions?
+LlamaIndex makes it possible to save embeddings with the command:
+```python
+index.storage_context.persist()
+```
+This functionality allows the user to use the knowledge space without re-uploading the file. However, it was not specified in the instructions to maintain such state across sessions, so I decided not to implement this feature. 
+
   
 ## Requirements
 - Google Colab: The code is intended to be executed in a Google Colab environment.
