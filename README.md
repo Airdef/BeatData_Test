@@ -65,4 +65,4 @@ Please follow the instructions within the notebook to:
 - Input your OpenAI API key
 - Input the PDF
 - Ask question to the llm
-
+- Insert `exit` in the Question space to terminate the cell
