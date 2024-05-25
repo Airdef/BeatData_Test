@@ -19,16 +19,15 @@ The model is configured to answer questions based on the specific knowledge spac
 - I chose Google Colab as the platform for this project to ensure that anyone evaluating my submission could easily access and execute the code without needing any specific setup or environment configuration.
 - ### Security Measures for API Key
 - The application is designed to prompt for the key at runtime rather than storing it statically for security.
-## Requirements
-- Google Colab: The code is intended to be executed in a Google Colab environment.
-- OpenAI API Key: You will need an API key from OpenAI to interact with their models.
-- PDF Document: A PDF file that serves as the knowledge base for the application.
 ### Optimized for the Knowledge Base
 - Reading instructions, I determined that focusing on the knowledge base would be the most appropriate approach.
 ### Exit After Five Unsuccessful Queries
 - To prevent unnecessary processing, the application is designed to exit after five consecutive unsuccessful queries. 
-
-### Why Google Colab?
+  
+## Requirements
+- Google Colab: The code is intended to be executed in a Google Colab environment.
+- OpenAI API Key: You will need an API key from OpenAI to interact with their models.
+- PDF Document: A PDF file that serves as the knowledge base for the application.
 
 ## Getting Started
 
