@@ -24,7 +24,7 @@ Here are some insights and answers to potential questions regarding some of my d
 ### Exit After Five Unsuccessful Queries
 - To prevent unnecessary processing, the application is designed to exit after five consecutive unsuccessful queries. 
 ### Why does the file need to be uploaded to a specific directory called 'KW_space'?
-The file is required to be uploaded to the directory "KW_space" because I utilize `SimpleDirectoryReader()` to load the data. While a simpler solution like `PdfReader()` from PyPDF2 could be used, I chose a more generalized approach ready to handle multiple files. This choice was made despite not being specified in the instructions because the increase in complexity and resource use was minimal, providing flexibility for potential future enhancements.
+-  The file is required to be uploaded to the directory "KW_space" because I utilize `SimpleDirectoryReader()` to load the data. While a simpler solution like `PdfReader()` from PyPDF2 could be used, I chose a more generalized approach ready to handle multiple files. This choice was made despite not being specified in the instructions because the increase in complexity and resource use was minimal, providing flexibility for potential future enhancements.
   
 ## Requirements
 - Google Colab: The code is intended to be executed in a Google Colab environment.
