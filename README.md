@@ -10,6 +10,7 @@ The model is configured to answer questions based on the specific knowledge spac
 
 - model: gpt-3.5-turbo
 - embeddings: text-embedding-3-small
+- Python version: 3.10.12
 
 
 ## Clarifications
