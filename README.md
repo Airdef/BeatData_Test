@@ -17,7 +17,7 @@ The model is configured to answer questions based on the specific knowledge spac
 
 ### Why Google Colab?
 - I chose Google Colab as the platform for this project to ensure that anyone evaluating my submission could easily access and execute the code without needing any specific setup or environment configuration.
-- ### Security Measures for API Key
+### Security Measures for API Key
 - The application is designed to prompt for the key at runtime rather than storing it statically for security.
 ### Optimized for the Knowledge Base
 - Reading instructions, I determined that focusing on the knowledge base would be the most appropriate approach.
