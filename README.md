@@ -80,13 +80,17 @@ You can  access the notebook directly from GitHub thanks to the embedded Colab l
 
 - When the Colab notebook prompts you to upload a PDF, use the file upload feature in Colab to select and upload your PDF document from your local machine to the specified directory.
 
+0. Wait Colab notebook to prompt you to upload a PDF
+
 1. Open the Files Sidebar: On the left side of your Colab notebook, click on the folder icon to open the "Files" sidebar.
 
-2. Navigate to the Directory: when the code ask to upload the PDF, navigate into the specified directory (`KW_space`) within the Files sidebar.
+2. Refresh the File List (if the specified directory (`KW_space`)): At the top of the Files sidebar, there is a refresh icon. Click this icon to refresh the directory listing. 
 
-3. Upload Files: Right-click within the Files sidebar (inside the specified directory: `KW_space` ) and select "Upload". Choose the PDF file from your local machine that you want to upload.
+3. Navigate to the Directory: when the code ask to upload the PDF, navigate into the specified directory (`KW_space`) within the Files sidebar.
 
-4. Verify Upload: After the upload completes, you should see the file listed in the Files sidebar under your specified directory.
+4. Upload Files: Right-click within the Files sidebar (inside the specified directory: `KW_space` ) and select "Upload". Choose the PDF file from your local machine that you want to upload.
+
+5. Verify Upload: After the upload completes, you should see the file listed in the Files sidebar under the specified directory (`KW_space`).
 
 ## Usage
 
