@@ -20,7 +20,7 @@ I chose Google Colab as the platform for this project to ensure that anyone eval
 ### Security Measures for API Key
 The application is designed to prompt for the key at runtime rather than storing it statically for security.
 ### Optimized for the Knowledge Base
-Reading instructions, I determined that focusing on the knowledge base would be the most appropriate approach.
+Reading instructions, I determined that focusing on the knowledge base and limiting files to PDF would be the most appropriate approach.
 ### Exit After Five Unsuccessful Queries
 To prevent unnecessary processing, the application is designed to exit after five consecutive unsuccessful queries. 
 ### Why does the file need to be uploaded to a specific directory called 'KW_space'?
