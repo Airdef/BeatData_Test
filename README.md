@@ -62,6 +62,10 @@ You can  access the notebook directly from GitHub thanks to the embedded Colab l
 3. **Open the Notebook:**
    - Navigate to the `BeatData_Test` folder in the Colab file explorer, and open the notebook.
   
+### Run  Code on Colab
+- Execute a Cell: Click on a cell with code and press the play button on the left of the cel.
+- Run All Cells: To execute all the cells in the notebook, go to Runtime > Run all.
+  
 ### Configuring Your OpenAI API Key
 
 - Obtain an API key from [OpenAI](https://openai.com/):
