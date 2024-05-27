@@ -82,9 +82,9 @@ You can  access the notebook directly from GitHub thanks to the embedded Colab l
 
 1. Open the Files Sidebar: On the left side of your Colab notebook, click on the folder icon to open the "Files" sidebar.
 
-2. Navigate to the Directory: If you've already created the directory as shown above, navigate into this directory within the Files sidebar.
+2. Navigate to the Directory: when the code ask to upload the PDF, navigate into the specified directory within the Files sidebar.
 
-3. Upload Files: Right-click within the Files sidebar (inside your specified directory) and select "Upload". Choose the PDF file from your local machine that you want to upload.
+3. Upload Files: Right-click within the Files sidebar (inside the specified directory) and select "Upload". Choose the PDF file from your local machine that you want to upload.
 
 4. Verify Upload: After the upload completes, you should see the file listed in the Files sidebar under your specified directory.
 
