@@ -32,6 +32,9 @@ index.storage_context.persist()
 ```
 This functionality allows the user to use the knowledge space without re-uploading the file. However, it was not specified in the instructions to maintain such state across sessions, so I decided not to implement this feature. 
 
+### Verification of API Key
+To ensure that the API key is valid and operational before proceeding with further tasks, I implemented a preliminary test request to OpenAI immediately after the API key is input. This test verifies connectivity and API access, preventing errors in subsequent operations.
+
   
 ## Requirements
 - Google Colab: The code is intended to be executed in a Google Colab environment.
