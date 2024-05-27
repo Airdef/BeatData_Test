@@ -84,6 +84,6 @@ You can  access the notebook directly from GitHub thanks to the embedded Colab l
 
 Please follow the instructions within the notebook to:
 - Input your OpenAI API key
-- Input the PDF
+- Input the PDF (i.e: PDF TEST FILE)
 - Ask question to the llm
 - Insert `exit` in the Question space to terminate the cell
