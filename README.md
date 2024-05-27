@@ -42,6 +42,11 @@ This functionality allows the user to use the knowledge space without re-uploadi
 
 ### Setting Up Your Environment
 
+## Direct Link from GitHub :
+
+You can  access the notebook directly from GitHub thanks to the embedded Colab link in the .ipynb file. 
+
+## Alternative
 1. **Open Google Colab:**
    - Visit [Google Colab](https://colab.research.google.com) and sign in with your Google account.
 
