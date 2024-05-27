@@ -1,5 +1,5 @@
 # BeatData Interview Test Solution
-This repository contains my solution to the interview test. The code has been developed and tested within Google Colab and is meant to be used within that environment. Below, you will find details on how to set up and review my solution.
+This repository contains my solution to the interview test. The code has been developed and tested within Google Colab and is meant to be used within that environment (on Google Chrome). Below, you will find details on how to set up and review my solution.
 
 ## Author
 - **Name:** Filippo Andrea La Fauci
@@ -37,6 +37,8 @@ To ensure that the API key is valid and operational before proceeding with furth
 
   
 ## Requirements
+- Google Chrome: Recommended for accessing Google Colab, as it provides the most stable and consistent experience, particularly for file uploads and session management.
+  Note: While other browsers might work, Google Chrome is preferred to avoid potential issues with file handling and interface compatibility.
 - Google Colab: The code is intended to be executed in a Google Colab environment.
 - OpenAI API Key: You will need an API key from OpenAI to interact with their models.
 - PDF Document: A PDF file that serves as the knowledge base for the application.
