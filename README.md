@@ -1,5 +1,5 @@
 # BeatData Interview Test Solution
-This repository contains my solutions to the interview test. The code has been developed and tested within Google Colab and is meant to be used within that environment. Below, you will find details on how to set up and review my solution.
+This repository contains my solution to the interview test. The code has been developed and tested within Google Colab and is meant to be used within that environment. Below, you will find details on how to set up and review my solution.
 
 ## Author
 - **Name:** Filippo Andrea La Fauci
