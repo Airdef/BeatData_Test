@@ -53,11 +53,11 @@ You can  access the notebook directly from GitHub thanks to the embedded Colab l
 2. **Clone the Repository:**
    - Open a new notebook and clone this repository by running the following command in a Colab cell:
      ```python
-        !git clone https://github.com/yourusername/your-repository-name.git
+        !git clone https://github.com/Airdef/BeatData_Test.git
      ```
   
 3. **Open the Notebook:**
-   - Navigate to the `your-repository-name` folder in the Colab file explorer, and open the notebook.
+   - Navigate to the `BeatData_Test` folder in the Colab file explorer, and open the notebook.
   
 ### Configuring Your OpenAI API Key
 
